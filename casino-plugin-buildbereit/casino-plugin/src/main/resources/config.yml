@@ -1,0 +1,48 @@
+# Einsatz pro Slotmachine-Spin
+slot-bet: 10
+
+# Roulette: Sekunden für Wetten, Maximaleinsatz
+roulette-bet-time: 20
+roulette-max-bet: 1000
+
+# 3D-Models (optional): item_model aus deinem Resource Pack, z.B. "casino:slot_cabinet"
+# Leer lassen = Vanilla-Optik (Block-/Item-Displays)
+models:
+  slot_cabinet: ""
+  wheel: ""
+  symbol:
+    REDSTONE: ""
+    EMERALD: ""
+    GOLD_INGOT: ""
+    DIAMOND: ""
+    NETHER_STAR: ""
+
+# Basispreise (Coins pro Item). Der Händler würfelt alle 10 Min. einen Preisfaktor (70%-160%).
+prices:
+  COBBLESTONE: 1
+  DIRT: 1
+  ROTTEN_FLESH: 1
+  BONE: 2
+  STRING: 2
+  SPIDER_EYE: 2
+  GUNPOWDER: 3
+  COAL: 3
+  WHEAT: 2
+  CARROT: 2
+  POTATO: 2
+  LEATHER: 3
+  FEATHER: 2
+  COPPER_INGOT: 4
+  IRON_INGOT: 10
+  REDSTONE: 5
+  LAPIS_LAZULI: 6
+  QUARTZ: 6
+  GOLD_INGOT: 25
+  SLIME_BALL: 12
+  ENDER_PEARL: 30
+  BLAZE_ROD: 25
+  EMERALD: 40
+  DIAMOND: 100
+  NETHERITE_SCRAP: 150
+  NETHERITE_INGOT: 700
+  NETHER_STAR: 1500

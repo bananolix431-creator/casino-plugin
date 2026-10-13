@@ -1,0 +1,26 @@
+name: Casino
+version: 1.0.0
+main: dev.casino.CasinoPlugin
+api-version: "26.3"
+description: Kleines Casino mit Slotmachines, Roulette und Coin-System
+
+commands:
+  coins:
+    description: Zeigt deine Coins
+  sell:
+    description: Verkauft das Item in deiner Hand
+  sellall:
+    description: Verkauft alle verkaufbaren Items im Inventar
+  prices:
+    description: Zeigt die aktuellen Marktpreise
+  bet:
+    description: Roulette-Wette setzen
+    usage: /bet [red|black|green|even|odd|0-36] [Betrag]
+  casino:
+    description: Admin-Befehle
+    usage: /casino [place slot|place roulette|remove|give <Spieler> <Betrag>|reload]
+    permission: casino.admin
+
+permissions:
+  casino.admin:
+    default: op
